@@ -1,3 +1,5 @@
+package lc1_两数之和;
+
 import java.util.*;
 
 /**

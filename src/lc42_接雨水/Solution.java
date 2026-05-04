@@ -1,4 +1,7 @@
+package lc42_接雨水;
+
 import java.util.*;
+
 
 class Solution {
   public int trap(int[] height) {

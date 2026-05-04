@@ -1,3 +1,5 @@
+package lc128_最长连续序列;
+
 import java.util.*;
 
 class Solution {

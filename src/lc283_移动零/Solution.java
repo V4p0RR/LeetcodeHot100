@@ -1,3 +1,5 @@
+package lc283_移动零;
+
 class Solution {
   public void moveZeroes(int[] nums) {
     int slow = 0;

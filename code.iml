@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1.两数之和" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11. 盛最多水的容器" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/128.最长连续序列" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15. 三数之和" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/283.移动零" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/3. 无重复字符的最长子串" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/42.接雨水" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/438. 找到字符串中所有字母异位词" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/49.字母异位词分组" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5.最长回文子串" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

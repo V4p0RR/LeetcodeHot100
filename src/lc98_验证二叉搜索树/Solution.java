@@ -3,14 +3,18 @@ package lc98_验证二叉搜索树;
 public class Solution {
     public boolean isValidBST(TreeNode root) {
 
-        return dfs(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
+        return dfs(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
 
-    public boolean dfs(TreeNode root, int min, int max) {
+    public boolean dfs(TreeNode root, long min, long max) {
         if (root == null) {
             return true;
         }
-        if (!dfs(root.left, min, root.val) && !dfs(root.right, root.val, max)) {
+        if (root.val <= min || root.val >= max) {
+            return false;
+        }
+        if (!dfs(root.left, min, root.val)
+                || !dfs(root.right, root.val, max)) {
             return false;
         }
         return true;
